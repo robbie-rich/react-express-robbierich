@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node simple_express.js",
+    "start": "PORT=9000 nodemon --exec babel-node simple_express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +19,6 @@
     "dotenv": "^8.1.0",
     "express": "^4.16.4",
     "global": "^4.4.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.2"
   }
 }
